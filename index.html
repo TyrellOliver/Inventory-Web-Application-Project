@@ -14,46 +14,43 @@
 
     <h1>Herbal Store Inventory</h1>
 
-    <div>
-        <h2>Add New Herb</h2>
-    </div>
-    <div>
+    <div class="newProduct">
+        <h2 id="addNewHerb">Add New Herb:</h2>
         <form>
-            <label>Name:</label>
-            <br />
-            <input type="text" />
-        </form>
-        <br />
-        <form>
-            <label>Price:</label>
-            <br />
-            <input type="text" />
-        </form>
-        <br />
-        <form>
-            <label>Country of Origin:</label>
-            <br />
-            <input type="text" />
-        </form>
-        <br />
-        <form>
-            <label>Image Url:</label>
-            <br />
-            <input type="text" />
-        </form>
-        <br />
-        <form>
-            <label for="inStock">In-Stock:</label>
-            <br />
+            <label>Name:</label><br />
+            <input id="" name="Name" type="text" /><br /><br />
+            <label>Price:</label><br />
+            <input id="" name="price" type="text" /><br /><br />
+            <label>Country of Origin:</label><br />
+            <input id="" name="countryOrigin" type="text" /><br /><br />
+            <label>Image Url:</label><br />
+            <input id="" name="url" type="text" /><br /><br />
+            <label for="inStock">In-Stock:</label><br />
             <select name="In-Stock" id="inStock">
                 <option>-- Select One --</option>
                 <option>Yes</option>
                 <option>No</option>
-            </select>
-
-
+            </select><br /><br />
+            <input type="submit" value="submit" />
+            <input type="reset" />
         </form>
+
+        <br />
+
     </div>
+    <div class="Product1">
+        <img id="pic1"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5J6WE2rtlDpaB6WDELPxPJjcbiWRSQukevRDszx6QtqzNHPGp4Sg89WpkoUvmJ8PSh8g&usqp=CAU"
+            alt="Burdock Root" />
+        <div class="div2">
+            <h2>Burdock Root</h2>
+            <p>$5.50</p>
+            <p>Burdock root contains the antioxidants <span style="text-decoration: underline;" > quercetin,</span> <span style="text-decoration: underline;" >luteolin,</span> and <span style="text-decoration: underline;" >phenolic acids,</span> which have properties that may prevent cancer cells from growing and multiplying. Traditionally, uses for burdock root has been to purify the blood, which these antioxidants are also great at doing. Recent evidence has found that burdock root can remove toxins from the bloodstream. Burdock root has long been used to treat skin conditions like acne, psoriasis, and eczema. The anti-inflammatory and antibacterial properties of the root can help resolve skin issues when it's applied topically to the skin as well.</p>
+        </div>
+    </div>
+
+
+
 </body>
 
 </html>

@@ -1,6 +1,44 @@
+* {
+    text-align: center;
+}
+
 h1 {
-    background-color: black;
+    background-color: forestgreen;
     color: aliceblue;
     text-align: center;
     padding: 50px;
+}
+
+#newProduct {
+    width: 100px;
+}
+
+#addNewHerb {
+    text-decoration: underline;
+}
+
+/* 
+div {
+    display: inline-block;
+} */
+
+.Product1 {
+    /* background-color: aqua; */
+    display: inline-flex;
+    width: 500px;
+    padding: 20px;
+}
+
+p {
+    border: 1px solid red;
+}
+
+#pic1 {
+    /* border: 2px solid red; */
+    /* height: 300px; */
+    margin-right: 10px;
+}
+
+div2{
+    columns: 1;
 }
