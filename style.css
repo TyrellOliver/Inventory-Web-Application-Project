@@ -23,14 +23,22 @@ div {
 } */
 
 .Product1 {
-    /* background-color: aqua; */
+    border: 1px solid black;
     display: inline-flex;
     width: 500px;
     padding: 20px;
 }
 
-p {
+.Product1 p {
     border: 1px solid red;
+    border-radius: 25px;
+}
+
+#product1-P {
+    overflow: hidden;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    height: 100px;
 }
 
 #pic1 {
@@ -39,6 +47,18 @@ p {
     margin-right: 10px;
 }
 
-div2{
+div2 {
     columns: 1;
+}
+
+.Product2 {
+    display: inline-flex;
+    width: 500px;
+    padding: 20px;
+}
+
+#pic2 {
+    margin-right: 10px;
+    height: 200px;
+    width: 200px;
 }
