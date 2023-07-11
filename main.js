@@ -1,8 +1,4 @@
-// console.log("Hello can you see me!")
-
 const allProducts = document.querySelector(".all-products"); // Selecting the container to put the new products.
-
-// const herbName = document.getElementById("name").value
 
 const submitButton = document.querySelector("#submit"); // Selecting the submit input
 submitButton.addEventListener("click", () => {
@@ -23,6 +19,7 @@ const addHerb = () => {
     const name = document.querySelector("#name").value
     const price = document.querySelector("#price").value
     const origin = document.querySelector("#origin").value
+    const image = document.querySelector("#img").value
 
     // const deleteButton = document.querySelector("#delete")
     // deleteButton.addEventListener("click", () => {
@@ -32,12 +29,17 @@ const addHerb = () => {
     const createNewElement = document.createElement("div");
     createNewElement.classList.add("Product3")
     createNewElement.innerHTML = `
+    <img id="pic3" src="${image}" />
         <h2>${name}</h2>
-        <p>Price: $${price}</p>
-        <p>Origin: ${origin}</p>
+        <p>${price}</p>
+        <p> ${origin}</p>
     `;
+
+    const childDiv = document.createElement("div")
+    childDiv.classList.add("product-info3")
+
     allProducts.appendChild(createNewElement);
-}
+};
 
 const newEle = document.createElement("h2")
 newEle

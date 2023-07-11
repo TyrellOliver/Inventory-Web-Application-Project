@@ -9,6 +9,11 @@ h1 {
     padding: 50px;
 }
 
+.all-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #newProduct {
     width: 100px;
 }
@@ -47,9 +52,9 @@ div {
     margin-right: 10px;
 }
 
-div2 {
+/* .product-info1 {
     columns: 1;
-}
+} */
 
 .Product2 {
     display: inline-flex;
@@ -57,7 +62,18 @@ div2 {
     padding: 20px;
 }
 
+.Product3 {
+    margin-right: 10px;
+    display: inline-flex;
+}
+
 #pic2 {
+    margin-right: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+#pic3 {
     margin-right: 10px;
     height: 200px;
     width: 200px;
