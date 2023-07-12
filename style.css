@@ -12,6 +12,9 @@ h1 {
 .all-products {
     display: flex;
     flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px; */
 }
 
 #newProduct {
@@ -27,19 +30,14 @@ div {
     display: inline-block;
 } */
 
-.Product1 {
+.herb-product {
     border: 1px solid black;
     display: inline-flex;
     width: 500px;
     padding: 20px;
 }
 
-.Product1 p {
-    border: 1px solid red;
-    border-radius: 25px;
-}
-
-#product1-P {
+#product1-p {
     overflow: hidden;
     overflow: scroll;
     text-overflow: ellipsis;
@@ -52,25 +50,31 @@ div {
     margin-right: 10px;
 }
 
-/* .product-info1 {
-    columns: 1;
-} */
-
-.Product2 {
-    display: inline-flex;
-    width: 500px;
-    padding: 20px;
-}
-
-.Product3 {
-    margin-right: 10px;
-    display: inline-flex;
+#product2-p{
+    overflow: hidden;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    height: 100px;
 }
 
 #pic2 {
     margin-right: 10px;
     height: 200px;
     width: 200px;
+}
+
+.Product3 {
+    border: 1px solid black;
+    display: inline-flex;
+    width: 500px;
+    padding: 20px;
+}
+
+#product3-p {
+    overflow: hidden;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    height: 100px;
 }
 
 #pic3 {
